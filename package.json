@@ -1,20 +1,19 @@
 {
-  "name": "swagger-generator",
-  "version": "1.0.0",
-  "description": "Generates swagger doc & ui based on express existing routes.",
+  "name": "doc-generators",
+  "version": "1.0.1",
+  "description": "simple generator handler for swagger.",
   "main": "index.js",
   "scripts": {},
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/swagger-generator.git"
+    "url": "https://github.com/SensitiveMix/doc-generators"
   },
   "keywords": [
-    "express",
     "swagger",
-    "api",
     "restful"
   ],
-  "author": "SensitiveMix",
+  "author": "sensitive",
   "license": "MIT",
   "dependencies": {
     "doctrine": "^2.0.0",
@@ -22,13 +21,5 @@
     "recursive-iterator": "^2.0.3",
     "swagger-parser": "^5.0.5",
     "doctrine-file": "^1.0.2"
-  },
-  "devDependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "mocha": "^3.2.0",
-    "mocha-jscs": "^5.0.0",
-    "mocha-jshint": "^2.3.1",
-    "supertest": "^2.0.1"
   }
 }
