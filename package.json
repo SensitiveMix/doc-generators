@@ -14,7 +14,7 @@
     "api",
     "restful"
   ],
-  "author": "",
+  "author": "SensitiveMix",
   "license": "MIT",
   "dependencies": {
     "doctrine": "^2.0.0",
