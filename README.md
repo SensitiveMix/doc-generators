@@ -1,4 +1,4 @@
-### doc Generators
+### Doc Generators
 
 #### Installation
 
