@@ -1,15 +1,15 @@
-### Swagger Generator
+### doc Generators
 
 #### Installation
 
 ```
-npm i swagger-generator --save-dev
+npm i doc-generators --save-dev
 ```
 
 #### Usage
 
 ```
-const swaggerWrapper = require('swagger-generator');
+const swaggerWrapper = require('doc-generators');
 
 let options = {
     swaggerDefinition: {
@@ -107,3 +107,8 @@ For model definitions:
  * @security JWT
  */
 ```
+
+### License
+
+MIT License
+Copyright (c) 2019 Jack Sun
