@@ -35,10 +35,11 @@ let options = {
         }
     },
     basedir: __dirname, //app absolute path
-    files: ['./routes/**/*.js'] //Path to the API handle folder
+    files: ['./routes/**/*.js'] // Path to the API handle folder
 };
 
 const swaggerDoc = swaggerWrapper(options)
+console.log(swaggerDoc)
 ```
 
 You can use swaggerDoc in Route, such as Open http://<app_host>:<app_port>/api-docs in your browser to view the documentation.
